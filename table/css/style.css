@@ -1,0 +1,125 @@
+html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+table {
+    border-collapse: collapse;
+    margin-left:20%;
+}
+
+thead{
+    background-color:#FFF5AB;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+form{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.title{
+    background-color:#F4C782;
+    border-radius: 15%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    width: 56%;
+    margin-left:22%;
+}
+.sideBanner {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 230px;
+    top: 400px;
+    left:100px;
+    background-color: gray;
+    color: black;
+  }
+
+  .sideBanner .side :hover{
+    background-color:#F4C782;
+    background-size: auto;
+    border-radius: 15%;
+  }
+.type{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    width: 9%;
+    margin-right:28%;
+}
+.type .bt :hover {
+    text-decoration: underline;
+}
+
+.board_list_wrap {
+    padding: 50px;
+ 
+}
+
+.board_list {
+    width: 60%;
+    border-top: 2px solid black;
+}
+
+.board_list tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list th,
+.board_list td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.board_list td {
+    text-align: center;
+}
+
+.board_list .tit {
+    text-align: center;
+}
+.board_list .tip {
+    background-color:#F4C782;
+    border-radius: 15%
+}
+
+.board_list .tit:hover {
+    text-decoration: underline;
+}
+
+.board_list_wrap .paging {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+.board_list_wrap .paging a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 100px;
+    font-size: 12px;
+}
+
+.board_list_wrap .paging a.bt {
+    border: 1px solid #eee;
+    background: #eee;
+}
+
+.board_list_wrap .paging a.num {
+    border: 1px solid gray;
+    font-weight: 600;
+    color: gray;
+}
+
+.board_list_wrap .paging a.num.on {
+    background: gray;
+    color: #fff;
+}
