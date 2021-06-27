@@ -3,6 +3,7 @@ html, body {
             height: 100%;
             margin: 0;
             padding: 0;
+            background-color:#A3A3A3;
         }
         
 table {
@@ -22,13 +23,14 @@ form{
     display: flex;
 	align-items: center;
 	justify-content: center;
+    margin-bottom: -3%;
 }
 .title{
     background-color:#F4C782;
-    border-radius: 15%;
     display: flex;
 	align-items: center;
 	justify-content: center;
+    border-radius: 50px/50px;
     width: 56%;
     margin-left:22%;
 }
@@ -37,23 +39,25 @@ form{
     text-align: center;
     width: 150px;
     height: 230px;
-    top: 400px;
+    top: 300px;
     left:100px;
     background-color: gray;
     color: black;
   }
 
-  .sideBanner .side :hover{
+.side:hover{
     background-color:#F4C782;
-    background-size: auto;
-    border-radius: 15%;
+    margin-left:15%;
+    width: 70%;
+    border-radius: 50px/30px;
   }
+  
 .type{
     display: flex;
 	align-items: center;
 	justify-content: center;
     width: 9%;
-    margin-right:28%;
+    margin-right:25%;
 }
 .type .bt :hover {
     text-decoration: underline;
@@ -66,14 +70,12 @@ form{
 
 .board_list {
     width: 60%;
-    border-top: 2px solid black;
 }
 
 .board_list tr {
     border-bottom: 1px solid #ccc;
 }
 
-.board_list th,
 .board_list td {
     padding: 10px;
     font-size: 14px;
@@ -88,7 +90,7 @@ form{
 }
 .board_list .tip {
     background-color:#F4C782;
-    border-radius: 15%
+    border-radius: 50px/30px;
 }
 
 .board_list .tit:hover {
@@ -111,6 +113,12 @@ form{
 .board_list_wrap .paging a.bt {
     border: 1px solid #eee;
     background: #eee;
+}
+
+.board_list_wrap .paging a.button {
+    position: absolute;
+    background: #F4C782;
+    left:73%
 }
 
 .board_list_wrap .paging a.num {
