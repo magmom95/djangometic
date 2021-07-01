@@ -34,7 +34,7 @@ input{
 
 .side:hover{
     background-color:#F4C782;
-    border-radius: 15%;
+    border-radius: 50px/30px;
     margin-left:15%;
     width: 70%;
   }
